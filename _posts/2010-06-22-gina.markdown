@@ -2,7 +2,7 @@
 layout: post
 title:  "FuseMODNet: Real-Time Camera and LiDAR based Moving Object Detection for robust low-light Autonomous Driving"
 date:   2019-10-11 18:08:39 +00:00
-image: /images/gina-motes.jpg
+image: /images/fusemodnet.png
 categories: research
 author: "Mohamed Ebbed"
 ---
