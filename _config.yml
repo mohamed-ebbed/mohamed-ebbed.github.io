@@ -9,7 +9,7 @@ name: Mohamed Ebbed
 # description: the profile of an engineer, researcher and software developer
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: images/personal_pic.jpg
+avatar: images/mohamed_personal.jpg
 
 #
 # Flags below are optional
@@ -18,7 +18,7 @@ avatar: images/personal_pic.jpg
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: mohamed.ebbed@tum.de
+  email: mebbed@uni-bonn.de
   facebook:
   flickr:
   github: mohamed-ebbed
