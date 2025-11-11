@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "FuseMODNet: Real-Time Camera and LiDAR based Moving Object Detection for robust low-light Autonomous Driving"
+title:  "MoAngelo: Motion-Aware Neural Surface Reconstruction for Dynamic Scenes"
 date:   2025-11-10 18:08:39 +00:00
 image: images/moangelo.png
 categories: research
