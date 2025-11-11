@@ -5,7 +5,7 @@ date:   2025-11-05
 year: 2026
 image: images/moangelo.png
 categories: research
-authors: "**Mohamed Ebbed**, Zorah Lähner"
+authors: "<b>Mohamed Ebbed</b>, Zorah Lähner"
 venue: "International Conference on 3D Vision (3DV)"
 arxiv: https://arxiv.org/abs/2509.15892
 ---
