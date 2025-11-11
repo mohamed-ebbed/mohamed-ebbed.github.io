@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "MoAngelo: Motion-Aware Neural Surface Reconstruction for Dynamic Scenes"
-date:   2025-03-20 18:08:39 +00:00
+date:   2026-03-23
 image: images/moangelo.png
 categories: research
 authors: "Mohamed Ebbed"
