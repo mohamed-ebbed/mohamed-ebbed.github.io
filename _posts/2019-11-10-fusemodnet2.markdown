@@ -1,13 +1,12 @@
 ---
 layout: post
 title:  "FuseMODNet: Real-Time Camera and LiDAR based Moving Object Detection for robust low-light Autonomous Driving"
-date:   2019-11-10 18:08:39 +00:00
-image: images/fusemodnet.png
+date:   2025-11-10 18:08:39 +00:00
+image: images/moangelo.png
 categories: research
-authors: "Hazem Rashed, Mohamed Ramzy Ebbed, Victor Vaquero, Ahmad El Sallab, Ganesh Sistu, Senthil Yogamani"
-venue: "Proceedings of the IEEE/CVF International Conference on Computer Vision Workshops"
-arxiv: https://arxiv.org/abs/1910.05395
-project_page: https://sites.google.com/view/fusemodnet
+authors: "Mohamed Ebbed"
+venue: "International Conference on 3D Vision (3DV) 2026"
+arxiv: https://arxiv.org/abs/2509.15892
 ---
 
-Moving object detection is a critical task for autonomous vehicles. As dynamic objects represent higher collision risk than static ones, our own ego-trajectories have to be planned attending to the future states of the moving elements of the scene. Motion can be perceived using temporal information such as optical flow. Conventional optical flow computation is based on camera sensors only, which makes it prone to failure in conditions with low illumination. On the other hand, LiDAR sensors are independent of illumination, as they measure the time-of-flight of their own emitted lasers. In this work, we propose a robust and real-time CNN architecture for Moving Object Detection (MOD) under low-light conditions by capturing motion information from both camera and LiDAR sensors. We demonstrate the impact of our algorithm on KITTI dataset where we simulate a low-light environment creating a novel dataset "Dark KITTI". We obtain a 10.1% relative improvement on Dark-KITTI, and a 4.25% improvement on standard KITTI relative to our baselines. The proposed algorithm runs at 18 fps on a standard desktop GPU using 256×1224 resolution images.
+Dynamic scene reconstruction from multi-view videos remains a fundamental challenge in computer vision. While recent neural surface reconstruction methods have achieved remarkable results in static 3D reconstruction, extending these approaches with comparable quality for dynamic scenes introduces significant computational and representational challenges. Existing dynamic methods focus on novel-view synthesis, therefore, their extracted meshes tend to be noisy. Even approaches aiming for geometric fidelity often result in too smooth meshes due to the ill-posedness of the problem. We present a novel framework for highly detailed dynamic reconstruction that extends the static 3D reconstruction method NeuralAngelo to work in dynamic settings. To that end, we start with a high-quality template scene reconstruction from the initial frame using NeuralAngelo, and then jointly optimize deformation fields that track the template and refine it based on the temporal sequence. This flexible template allows updating the geometry to include changes that cannot be modeled with the deformation field, for instance occluded parts or the changes in the topology. We show superior reconstruction accuracy in comparison to previous state-of-the-art methods on the ActorsHQ dataset.
