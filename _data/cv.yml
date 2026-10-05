@@ -1,189 +1,191 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Mohamed Ebbed
+  label: PhD Student in Computer Science
+  email: mebbed@uni-bonn.de
+  location: Bonn, Germany
+  website: https://mohamed-ebbed.github.io
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
+      username: mohamed-ebbed
     - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: mohamed-ebbed
+    - network: Google Scholar
+      username: RAqxMMwAAAAJ
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
+      - institution: University of Bonn
+        location: Bonn, Germany
+        area: Computer Science
         studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+        start_date: 2024-10
         highlights:
-          - Description 1.
-          - Description 2.
+          - "**Specialization:** 3D/4D Reconstruction with Neural Fields and Gaussian Splatting"
+          - "**Supervisor:** Dr. Zorah Lähner"
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: Technical University of Munich
+        location: Munich, Germany
+        area: Computer Science
+        studyType: M.Sc.
+        start_date: 2021-10
+        end_date: 2024-04
         highlights:
-          - Description 1.
-          - Description 2.
+          - "**Thesis:** Neural Shading-based Optimization of Neural Implicit Representations"
+          - "**Specialization:** Computer Vision and Machine Learning"
+          - "**Supervisor:** Dr. Matthias Nießner"
+          - "**Thesis Grade:** 4.0/4.0"
+
+      - institution: Cairo University
+        location: Cairo, Egypt
+        area: Computer Engineering
+        studyType: B.Sc.
+        start_date: 2016-09
+        end_date: 2021-04
+        highlights:
+          - "**Thesis:** Generating Human Faces from Input Text using GANs"
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
-        highlights:
-          - Relativity
-          - Description 2.
+      - company: University of Bonn
+        position: Doctoral Researcher
+        location: Bonn, Germany
+        start_date: 2024-10
+        summary: Working in the Geometry in Machine Learning group on 4D Reconstruction of Deformable Objects from Multi-view RGB videos using Neural SDFs and Gaussian Splatting.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
-        highlights:
-          - Description 1.
-          - Description 2.
+      - company: Siemens
+        position: Machine Learning Working Student
+        location: Munich, Germany
+        start_date: 2023-03
+        end_date: 2024-06
+        summary: Working on 3D Object Detection and Segmentation for Autonomous Driving and Robotics from RGB Images and LiDAR.
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
+      - company: Technical University of Munich
+        position: Teaching Assistant
+        location: Munich, Germany
+        start_date: 2023-02
+        end_date: 2024-03
+        summary: Teaching Assistant for the Introduction to Deep Learning and Machine Learning courses.
 
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
+      - company: Fortiss
+        position: Deep Learning Student Assistant
+        location: Munich, Germany
+        start_date: 2021-12
+        end_date: 2022-12
+        summary: Building robust object detection models for autonomous driving, and metrics that measure their robustness on test data. Also worked on the visualization of the learned features for Object Detection.
 
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
+      - company: Affectiva
+        position: Deep Learning Intern
+        location: Cairo, Egypt
+        start_date: 2020-06
+        end_date: 2020-10
+        summary: Built a module for real-time Deep Learning model interpretability for facial emotion classification. The module visualizes the parts of the input image that affect the model's decisions.
 
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
-
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - company: Valeo
+        position: Deep Learning Research Intern
+        location: Cairo, Egypt
+        start_date: 2019-07
+        end_date: 2019-10
+        summary: Published 2 research papers at Autonomous Driving workshops at NeurIPS 2019 and ICCV 2019 on Semantic Motion Segmentation for Autonomous Driving with Deep Learning.
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: "MoAngelo: Motion-Aware Neural Surface Reconstruction for Dynamic Scenes"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - Mohamed Ebbed
+          - Zorah Lähner
+        publisher: International Conference on 3D Vision (3DV)
+        releaseDate: 2026
+        url: https://mohamed-ebbed.github.io/MoAngelo/
+        summary: M. Ebbed, Z. Lähner
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: "RST-MODNet: Real-Time Spatio-Temporal Moving Object Detection for Autonomous Driving"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+          - Mohamed Ebbed
+          - Hazem Rashed
+          - Ahmad El Sallab
+          - Senthil Yogamani
+        publisher: NeurIPS ML4AD Workshop
+        releaseDate: 2019
+        url: https://arxiv.org/abs/1912.00438
+        summary: M. Ebbed, H. Rashed, A. El Sallab, S. Yogamani
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
+      - title: "FuseMODNet: Real-Time Camera and LiDAR Based Moving Object Detection for Robust Low-Light Autonomous Driving"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
-
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+          - Hazem Rashed
+          - Mohamed Ebbed
+          - Victor Vaquero
+          - Ahmad El Sallab
+          - Ganesh Sistu
+          - Senthil Yogamani
+        publisher: IEEE/CVF International Conference on Computer Vision (ICCV) Workshops
+        releaseDate: 2019
+        url: https://arxiv.org/abs/1910.05395
+        summary: H. Rashed, M. Ebbed, V. Vaquero, A. El Sallab, G. Sistu, S. Yogamani
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+      - name: 3D Reconstruction for Dynamic Scenes from Multi-view Videos (3DV 2026)
+        url: https://mohamed-ebbed.github.io/MoAngelo/
+        summary: Developed a novel framework extending NeuralAngelo for dynamic 3D scene reconstruction from multi-view videos. The method introduces a flexible template-based approach with jointly optimized deformation fields, enabling high-quality geometry tracking and refinement across time. Achieved state-of-the-art reconstruction accuracy on the ActorsHQ dataset compared to existing dynamic reconstruction methods.
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+          - Python, PyTorch
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Neural Shading-based Optimization of Signed Distance Functions (Master Thesis)
+        summary: Developed a novel approach for 3D reconstruction leveraging neural fields, facilitating the joint optimization of a neural Signed Distance Function (SDF), material, and lighting using RGB images with known camera poses. Material properties are characterized by a diffuse term and optionally a specular term, while lighting is represented by either an environment map or spatially varying spherical harmonics coefficients. The appearance decomposition into material and lighting enhances reconstruction quality, enabling finer details in the reconstructed surfaces.
+        highlights:
+          - Python, PyTorch
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: "ShadedSDF: Volumetric Surface Reconstruction with Appearance Decomposition Constraints"
+        summary: Developed a technique to integrate appearance decomposition constraints (shading cues), leveraging inverse rendering, to refine neural Signed Distance Functions (SDFs). The method enhances state-of-the-art 3D reconstruction methods such as MonoSDF by incorporating the shading cues, improving the quality of the resulting reconstructions.
+        highlights:
+          - Python, PyTorch
+
+      - name: "SparseVoxels: Learning Sparse Implicit Features for Novel View Synthesis"
+        summary: Developed a Deep Learning approach that surpasses NeRF in novel-view synthesis while achieving a 35x speedup. The method optimizes a Sparse Implicit Voxel Grid for the scene using RGB images with known camera poses, then projects the voxel grid onto a 2D plane and feeds it into a rendering Convolutional Neural Network (CNN) to synthesize novel views.
+        highlights:
+          - Python, PyTorch, MinkowskiEngine, COLMAP
+
+      - name: Inverse Rendering using Neural Implicit Representations
+        summary: Built a Deep Learning method that reconstructs a relightable mesh from RGB images of an object with known camera poses. Neural fields represent geometry, appearance, material properties, and environment lighting. The method achieves state-of-the-art results, surpassing inverse rendering baselines such as NeRFactor, NeRV, and NeRD.
+        highlights:
+          - Python, PyTorch, COLMAP
+
+      - name: Real-time Dense Surface Mapping and Tracking
+        summary: Built a system with CUDA, C++, and OpenCV that performs real-time surface reconstruction and camera tracking for a scene from input depth images.
+        highlights:
+          - C++, OpenCV, CUDA
+
+      - name: Neural 3D Shape Generation and Completion
+        summary: Built a Deep Learning method that performs shape completion and generation from an input signed distance function (SDF) grid. The SDF grid is processed by a 3D CNN, and a Graph Convolutional Neural Network then predicts the triangular mesh of the object.
+        highlights:
+          - Python, PyTorch
+
+      - name: Semantic Motion Segmentation for Autonomous Driving
+        summary: Built a Deep Learning system that fuses RGB images and optical flow, and uses temporal information, to improve Semantic Motion Segmentation for Autonomous Driving. The project achieved state-of-the-art results and was published at the autonomous driving workshops of NeurIPS 2019 and ICCV 2019.
+        highlights:
+          - Python, PyTorch, TensorFlow
+
+      - name: Ritratista (B.Sc. Graduation Project)
+        summary: Built a Deep Learning system that extends StyleGAN2 to be conditioned on a textual description of a face. It also lets the user change the attributes and head pose of the generated face.
+        highlights:
+          - Python, PyTorch
+
+    Skills:
+      - name: Programming Languages
+        icon: fa-solid fa-code
+        keywords: "Python, C++"
+
+      - name: Deep Learning Libraries
+        icon: fa-solid fa-brain
+        keywords: "PyTorch, MinkowskiEngine, TensorFlow, Keras, ONNX, TensorFlow.js, TensorRT, tiny-cuda-nn"
+
+      - name: Machine Learning Libraries
+        icon: fa-solid fa-chart-line
+        keywords: "scikit-learn, NumPy, pandas, Matplotlib"
+
+      - name: Other Technologies
+        icon: fa-solid fa-screwdriver-wrench
+        keywords: "OpenCV, CMake, COLMAP, CUDA, Docker, Git, Linux, Blender, MeshLab"
+
+      - name: Areas of Experience
+        icon: fa-solid fa-cube
+        keywords: "3D Computer Vision, Visual Computing, 3D/4D Reconstruction, Neural Fields, Gaussian Splatting, Neural Rendering, Neural Implicit Representations, Multi-view Geometry, Generative Models"
