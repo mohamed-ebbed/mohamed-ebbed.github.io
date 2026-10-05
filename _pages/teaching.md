@@ -2,13 +2,17 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Course materials, schedules, and resources for classes taught.
-nav: false
-calendar: true
+description:
+nav: true
+nav_order: 3
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
+### Teaching Assistant
 
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
+**[Geometric Deep Learning](https://geometryinml.cs.uni-bonn.de/teaching/ws25/lecture-geometric-dl.html)**, University of Bonn<br>
+Winter Semester 2024/25 · Winter Semester 2025/26 · Summer Semester 2026
 
-{% include courses.liquid %}
+### Thesis Supervision
+
+**Bachelor Thesis:** _Neural 3D Reconstruction with Material Priors_<br>
+Winter Semester 2026/27 (ongoing)

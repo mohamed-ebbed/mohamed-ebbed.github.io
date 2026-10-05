@@ -193,8 +193,6 @@ collections:
     defaults:
       layout: post
     output: true
-  teachings:
-    output: true
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -675,9 +673,7 @@ third_party_libraries:
 # Get external JSON data
 # -----------------------------------------------------------------------------
 
-jekyll_get_json:
-  - data: resume
-    json: assets/json/resume.json # it can also be an url
+jekyll_get_json: [] # e.g. - data: resume / json: assets/json/resume.json (only needed for cv_format: jsonresume)
 
 jsonresume:
   - basics
